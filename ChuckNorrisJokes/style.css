@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #aaa;
+  font-family: "Roboto Condensed", sans-serif;
+}
+h5 {
+  margin: 5% 10%;
+}
+body {
+  background-color: rgb(58, 25, 150);
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ck {
+  height: 10px;
+  width: 10px;
+  background: url("https://media4.giphy.com/media/4M4LzMbq9sGBO/200.webp?cid=ecf05e47jb25lnx938640hz0vsdb06odwog5wpc6cppa1lyd&rid=200.webp&ct=g")
+    no-repeat center cover;
+  background-size: 10px 10px;
+}
+.container {
+  /* height: 60%; */
+  min-height: 60%;
+  width: 90%;
+  background-color: whitesmoke;
+  text-align: center;
+  border-radius: 10px;
+  overflow-wrap: break-word;
+}
+#Jokes {
+  color: black;
+  margin: 20px 0;
+  font-size: 1em;
+  font-style: normal;
+  margin: 5% 10%;
+}
+button {
+  background-color: rgb(160, 95, 235);
+  border-style: hidden;
+  padding: 5px 15px;
+  margin: 5% 10%;
+  color: whitesmoke;
+  border-radius: 5px;
+  position: relative;
+  font-size: 0.5em;
+  top: 0px;
+  bottom: 2px;
+}
+
+/* .load {
+  height: 20px;
+  width: 80px;
+  background-color: lightseagreen;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+}
+.box {
+  min-width: 1px;
+  background-color: white;
+  height: 100%;
+  flex-grow: 1;
+  transition: 500ms;
+} */
